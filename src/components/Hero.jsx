@@ -5,6 +5,7 @@ import ComputersCanvas from "../canvas/Computers"
 const Hero = () => {
   return (
     <div>
+    {/* <ComputersCanvas/> */}
     </div>
   )
 }

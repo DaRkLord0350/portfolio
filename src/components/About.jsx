@@ -41,7 +41,7 @@ const About = () => {
       </motion.div>
       <motion.p
         variants={fadeIn("" , "", 0.1 ,1)}
-        className="mt-4 text-secondary text-[17px] max-w-100vh leading -[30px]">
+        className="mt-4 text-secondary text-[17px] max-w-5xl leading -[30px]">
         Hi there! My name is Anshuman Jha and I am currently pursuing my B-Tech at National Institute of Technology, Durgapur in West Bengal. I am equipped with problem-solving skills and programming expertise in C, C++ and Python. Additionally, I have completed several programming projects, including an online hotel reservation system and a bank transaction program, which are hosted on my GitHub profile.
         <br/>
         <br/>

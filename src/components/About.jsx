@@ -45,8 +45,7 @@ const About = () => {
         className="mt-4 text-secondary text-[17px] max-w-5xl leading -[30px]">
         Hi there! My name is Anshuman Jha and I am currently pursuing my B-Tech at National Institute of Technology, Durgapur in West Bengal. I am equipped with problem-solving skills and programming expertise in C, C++ and Python. Additionally, I have completed several programming projects, including an online hotel reservation system and a bank transaction program, which are hosted on my GitHub profile.
         <br/>
-        <br/>
-        In terms of design, I have experience in graphic design with tools such as Photoshop, Figma, Adobe Illustrator, and Canva, as well as front-end web development using HTML, CSS, and JS. I have designed and developed two websites, including a clone of Flipkart and an e-commerce website for buying electronic items.
+        In terms of design, I have experience in graphic design with tools such as Photoshop, Figma, Adobe Illustrator, and Canva, as well as front-end web development using HTML, CSS, JS and React.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

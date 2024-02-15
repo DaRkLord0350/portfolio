@@ -14,7 +14,7 @@ const Contact = () => {
     email: "",
     message: "",
   });
-
+ 
   const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
@@ -30,19 +30,21 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-
+ //KjzQ_W8OGJENN26KF
+//template_fdswj5t
+//service_jyqponj
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        'service_jyqponj',
+        'template_fdswj5t',
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Anshuman Jha",
           from_email: form.email,
           to_email: "anshumanjha0350@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        'KjzQ_W8OGJENN26KF'
       )
       .then(
         () => {

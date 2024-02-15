@@ -18,6 +18,7 @@ const App = () => {
           <Navbar/>
           <Hero />
         </div>
+          <StarsCanvas />
         <About />
         <Experience />
         <Tech />
@@ -25,7 +26,6 @@ const App = () => {
          <Feedbacks /> {/*hta skte he */}
         <div className='relative z-0'>
           <Contact />
-          <StarsCanvas />
         </div>
       </div>
     </BrowserRouter>

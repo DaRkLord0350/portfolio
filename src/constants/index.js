@@ -16,9 +16,9 @@ import {
   figma,
   docker,
   meta,
-  starbucks,
   tesla,
   shopify,
+  ieee,
   carrent,
   jobit,
   tripguide,
@@ -50,7 +50,7 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Graphic Designer",
     icon: backend,
   },
   {
@@ -116,55 +116,40 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Graphic Designer",
+    company_name: "IEEE SB NTIDGP",
+    icon: ieee,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2022 - PRESENT",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Proven ability to manipulate images, create illustrations, and design layouts with precision and creativity.",
+      "Skilled in articulating design concepts and rationale, and receptive to feedback to ensure alignment with project objectives and client expectations.",
+      "Continuously strive for excellence by staying updated with the latest design trends, techniques, and tools. ",
     ],
   },
   {
     title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    company_name: "IEEE SB NTIDGP",
+    icon: ieee,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "March 2022 - PRESENT",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Proficiency in modern frontend development technologies such as HTML5, CSS3, JavaScript, and frameworks like React.js.",
+      ": Strong team player with excellent communication skills, capable of effectively collaborating with designers.",
+      "Implementing responsive design.",
+      "Committed to ongoing professional development and staying abreast of industry trends and emerging technologies in frontend development.",
     ],
   },
   {
-    title: "Web Developer",
+    title: "Senior Executive Member",
     company_name: "Shopify",
-    icon: shopify,
+    icon: ieee,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "March 2022 - PRESENT",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Demonstrated track record of providing strategic leadership and direction to drive organizational growth and success.",
+      "Strong proficiency in making data-driven decisions and prioritizing initiatives to maximize business impact and deliver measurable results.",
+      "Proven ability to cultivate trust, influence, and collaboration at all levels of the organization, fostering a culture of teamwork, accountability, and continuous improvement.",
     ],
   },
 ];
@@ -198,17 +183,13 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Portfolio",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Utilized React JS framework to create a dynamic and responsive web application. Integrated Three.js library to introduce immersive 3D graphics, animations, and interactions, showcasing a dedication to mastering emerging technologies.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
       },
       {
         name: "tailwind",
@@ -219,46 +200,30 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Banking System",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "This C++ program is a basic banking system simulation. Users can register, log in, check balances, deposit, withdraw, transfer funds, and change passwords for their accounts.",
     tags: [
       {
-        name: "react",
+        name: "C++",
         color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/DaRkLord0350/Banking_System",
   },
   {
-    name: "Trip Guide",
+    name: "Hotel Reservation",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "This C++ program manages a hotel's room allocation, customer information, and billing. Users can check room availability, allocate rooms, cancel reservations, and view customer details",
     tags: [
       {
-        name: "nextjs",
+        name: "C++",
         color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/DaRkLord0350/Hotel-Reservation",
   },
 ];
 
